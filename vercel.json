@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/playerjs.js", "destination": "/playerjs.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
